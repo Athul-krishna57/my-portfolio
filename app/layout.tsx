@@ -19,7 +19,7 @@ const spaceGrotesk = Space_Grotesk({
 })
 
 // TODO: replace with your actual deployed domain
-const BASE_URL = 'https://athulkrishnav.online'
+const BASE_URL = 'https://www.athulkrishnav.online'
 
 export const metadata: Metadata = {
   metadataBase: new URL(BASE_URL),
