@@ -153,8 +153,8 @@ export default function About() {
             <div className="space-y-5">
               {[
                 { target: 3,  suffix: '+', label: 'Years of experience' },
-                { target: 15, suffix: '+', label: 'Projects delivered' },
-                { target: 8,  suffix: '+', label: 'Personal projects built' },
+                { target: 1,  suffix: '',  label: 'Product shipped at CyberSquare' },
+                { target: 2,  suffix: '',  label: 'Personal projects built' },
               ].map(({ target, suffix, label }) => (
                 <div key={label} className="flex items-baseline gap-1">
                   <span

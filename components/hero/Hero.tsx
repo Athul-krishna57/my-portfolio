@@ -28,8 +28,8 @@ function SplitChars({ text, className = '' }: { text: string; className?: string
 
 const stats = [
   { value: '3+', label: 'Years Exp.' },
-  { value: '15+', label: 'Projects' },
-  { value: '5+', label: 'Brands' },
+  { value: '1',  label: 'Product Shipped' },
+  { value: '2',  label: 'Personal Projects' },
 ]
 
 export default function Hero() {
