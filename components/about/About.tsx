@@ -18,10 +18,10 @@ const techStack = [
 ]
 
 const creativeWork = [
-  'Brand Identity',
-  'Product Design',
-  '8K Automotive Photography',
-  'Visual Overlays',
+  'AI-Driven Product Design',
+  'Full-Stack Web Applications',
+  'Interactive Web Experiences',
+  'Aws Basic Deployments',
 ]
 
 const marqueeItems = [
@@ -114,14 +114,14 @@ export default function About() {
                 Hey, I&apos;m Athul
               </h3>
               <p className="text-text-secondary text-sm leading-relaxed mb-4">
-                A FullStack Software Developer based in India, with a genuine love for both robust backend systems
-                and pixel-perfect frontends. I build products that perform under pressure and look striking in the process.
+                A FullStack Software Developer currently working at{' '}
+                <span className="text-white font-medium">CyberSquare</span>, with a deep passion for building
+                systems that are both technically solid and visually precise. I care about clean architecture,
+                performance, and the details that make a product feel right.
               </p>
               <p className="text-text-secondary text-sm leading-relaxed">
-                Beyond code, I channel the same precision into brand identity and visual storytelling — including
-                8K automotive photography that has shaped brands like <span className="text-white font-medium">Elaneera</span>,{' '}
-                <span className="text-white font-medium">LookIn</span>, and{' '}
-                <span className="text-white font-medium">BRICK</span>.
+                Outside of work I&apos;m always building — personal projects that push my limits, from interactive
+                WebGL experiences to full-stack tools I actually want to use every day.
               </p>
             </div>
           </div>
@@ -154,7 +154,7 @@ export default function About() {
               {[
                 { target: 3,  suffix: '+', label: 'Years of experience' },
                 { target: 15, suffix: '+', label: 'Projects delivered' },
-                { target: 5,  suffix: '+', label: 'Brands designed' },
+                { target: 8,  suffix: '+', label: 'Personal projects built' },
               ].map(({ target, suffix, label }) => (
                 <div key={label} className="flex items-baseline gap-1">
                   <span
@@ -192,7 +192,7 @@ export default function About() {
             </div>
             <p className="font-display font-semibold text-lg text-white mb-2">Open to Opportunities</p>
             <p className="text-sm text-text-secondary leading-relaxed">
-              Available for freelance projects, full-time roles, and design collaborations.
+              Exploring full-time roles in product-focused engineering teams. Currently building at CyberSquare.
             </p>
             <p className="text-xs text-text-dim mt-4">📍 Kerala, India · Remote friendly</p>
           </div>

@@ -3,7 +3,6 @@
 import { useEffect, useRef, Suspense } from 'react'
 import dynamic from 'next/dynamic'
 import { gsap } from 'gsap'
-import { motion } from 'framer-motion'
 
 const ParticleField = dynamic(() => import('./ParticleField'), {
   ssr: false,
@@ -85,7 +84,7 @@ export default function Hero() {
           <div className="hero-badge inline-flex items-center gap-2 px-3 py-1.5 mb-8 glass rounded-full border border-white/10">
             <span className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse-dot" />
             <span className="text-xs font-medium text-text-secondary tracking-widest uppercase">
-              Available for hire
+              Currently at CyberSquare
             </span>
           </div>
 
