@@ -79,6 +79,7 @@ export default function Nav() {
       {/* CTA */}
       <motion.a
         href="/resume.pdf"
+        download="Athul_Krishna_V_Resume.pdf"
         target="_blank"
         rel="noopener noreferrer"
         custom={links.length + 1}
