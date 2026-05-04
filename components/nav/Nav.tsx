@@ -78,8 +78,7 @@ export default function Nav() {
 
       {/* CTA */}
       <motion.a
-        href="/resume_1.pdf"
-        download="Athul_Krishna_V_Resume.pdf"
+        href="https://docs.google.com/viewer?url=https://www.athulkrishnav.online/resume_1.pdf"
         target="_blank"
         rel="noopener noreferrer"
         custom={links.length + 1}
