@@ -184,8 +184,18 @@ export default function About() {
             </ul>
           </div>
 
-          {/* ── Availability card (4/12) ──────────────────────────── */}
-          <div className="bento-card col-span-12 sm:col-span-4 glass rounded-2xl p-8 hover:border-emerald-500/20 transition-colors duration-300">
+          {/* ── Award card (2/12) ─────────────────────────────────── */}
+          <div className="bento-card col-span-12 sm:col-span-2 glass rounded-2xl p-8 relative overflow-hidden hover:border-yellow-400/20 transition-colors duration-300">
+            <div className="absolute -top-6 -right-6 w-24 h-24 rounded-full bg-yellow-400/5 blur-2xl pointer-events-none" />
+            <p className="text-xs tracking-[0.3em] text-text-dim uppercase mb-4">Award</p>
+            <div className="text-3xl mb-3">🏆</div>
+            <p className="font-display font-semibold text-white text-sm leading-snug mb-1">CS Star</p>
+            <p className="text-xs text-yellow-400/80 font-medium mb-2">Q4 Best Performer · 2024</p>
+            <p className="text-xs text-text-dim leading-relaxed">Cyber Square AI &amp; Robotics Pvt Ltd</p>
+          </div>
+
+          {/* ── Availability card (2/12) ──────────────────────────── */}
+          <div className="bento-card col-span-12 sm:col-span-2 glass rounded-2xl p-8 hover:border-emerald-500/20 transition-colors duration-300">
             <div className="flex items-center gap-2 mb-5">
               <span className="w-2.5 h-2.5 rounded-full bg-emerald-400 animate-pulse-dot" />
               <span className="text-xs tracking-[0.3em] text-text-dim uppercase">Status</span>
