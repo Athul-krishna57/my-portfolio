@@ -93,6 +93,9 @@ export const metadata: Metadata = {
     canonical: BASE_URL,
   },
   category: 'technology',
+  verification: {
+    google: '22LoEITo7wzZ_bHCUGLbsKjv4cRF9DIKBf5troy2Bb8',
+  },
 }
 
 const personSchema = {
