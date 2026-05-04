@@ -69,15 +69,15 @@ export const metadata: Metadata = {
     locale: 'en_IN',
     url: BASE_URL,
     siteName: 'Athul Krishna V',
-    title: 'Athul Krishna V — FullStack Developer',
+    title: 'Athul Krishna V — FullStack Software Developer',
     description:
-      'Portfolio of Athul Krishna V — FullStack Software Developer from Kerala, India. React, Python, AWS, Brand Identity, Automotive Photography.',
+      'Athul Krishna V — FullStack Software Developer from Kerala, India. Developing innovative web solutions with expertise in React, Python, AWS cloud services',
     images: [
       {
         url: '/og-image.png',
         width: 1200,
         height: 630,
-        alt: 'Athul Krishna V — FullStack Developer',
+        alt: 'Athul Krishna V — FullStack Software Developer',
       },
     ],
   },
@@ -108,7 +108,7 @@ const personSchema = {
   image: `${BASE_URL}/og-image.png`,
   jobTitle: 'FullStack Software Developer',
   description:
-    'FullStack Software Developer based in Kerala, India. Specializing in React, Python, AWS, Brand Identity, and Product Design.',
+    'FullStack Software Developer based in Kerala, India. Specializing in React, Developing innovative web solutions with expertise in React, Python, AWS cloud services',
   address: {
     '@type': 'PostalAddress',
     addressRegion: 'Kerala',
@@ -128,9 +128,6 @@ const personSchema = {
     'MongoDB',
     'PostgreSQL',
     'AWS',
-    'Brand Identity Design',
-    'Product Design',
-    'Automotive Photography',
   ],
 }
 
@@ -139,7 +136,7 @@ const websiteSchema = {
   '@type': 'WebSite',
   name: 'Athul Krishna V',
   url: BASE_URL,
-  description: 'Portfolio of Athul Krishna V — FullStack Developer',
+  description: 'Portfolio of Athul Krishna V — FullStack Software Developer',
   author: {
     '@type': 'Person',
     name: 'Athul Krishna V',
