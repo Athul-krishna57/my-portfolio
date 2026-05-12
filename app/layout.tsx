@@ -89,6 +89,11 @@ export const metadata: Metadata = {
     images: ['/og-image.png'],
     creator: '@athul_.x',
   },
+  icons: {
+    icon: '/og-image.png',
+    shortcut: '/og-image.png',
+    apple: '/og-image.png',
+  },
   alternates: {
     canonical: BASE_URL,
   },
